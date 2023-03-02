@@ -11,6 +11,8 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
+import java.io.IOException;
+
 public class VendorShippingAddressStepDefinitions {
     HubcomfyLoginPage hubcomfyLoginPage = new HubcomfyLoginPage();
     VendorShippingAddressPage vendorShippingAddressPage = new VendorShippingAddressPage();
@@ -155,14 +157,16 @@ public class VendorShippingAddressStepDefinitions {
     }
 
     @Then("save butonuna tiklandi")
-    public void saveButonunaTiklandi() {
+    public void saveButonunaTiklandi() throws IOException {
     ReusableMethods.clickByJS(vendorShippingAddressPage.saveAddress);
         ReusableMethods.waitFor(2);
+        ReusableMethods.takeScreenShotOfPage();
     }
 
     @And("driver kapatildi")
-    public void driverKapatildi() {
+    public void driverKapatildi()  {
     Driver.closeDriver();
+
 
     }
 

@@ -1,5 +1,7 @@
+@bluerentalcar
 Feature: Blue Rental Car Login Olma
- @manager_login
+
+  @manager_login
   Scenario Outline:manager_login_test
    Given kullanici Blue Rental Car sayfasina gider
    When kullanici login yazisina tiklar

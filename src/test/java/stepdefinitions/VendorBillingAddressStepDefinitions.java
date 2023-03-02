@@ -14,6 +14,7 @@ public class VendorBillingAddressStepDefinitions {
     @Given("Kullanici var olan onceki bilgileri siler")
     public void kullanici_var_olan_onceki_bilgileri_siler() {
         ReusableMethods.scrollDownActions();
+        ReusableMethods.waitFor(3);
         ReusableMethods.clearMethodBilling();
         ReusableMethods.waitFor(3);
 
@@ -107,18 +108,15 @@ public class VendorBillingAddressStepDefinitions {
     }
 
     @Then("Kullanici save butonuna tiklar")
-    public void kullanici_save_butonuna_tiklar() {
+    public void kullanici_save_butonuna_tiklar() throws IOException {
         ReusableMethods.scrollDownActions();
         ReusableMethods.clickByJS(vendorBillingAddressPage.savebuton);
         ReusableMethods.waitFor(3);
-    }
-
-    @Then("driver kapatilir")
-    public void driver_kapatilir() throws IOException {
         ReusableMethods.takeScreenShotOfPage();
+    }
+    @Then("Kullanici driveri kapatir")
+    public void kullaniciDriveriKapatir() throws IOException {
         Driver.closeDriver();
 
     }
-
-
 }

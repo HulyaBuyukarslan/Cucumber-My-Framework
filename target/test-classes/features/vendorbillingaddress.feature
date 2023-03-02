@@ -1,6 +1,6 @@
 Feature: Hubcomfy Vendor Billing Address Olusturma
 
-@billing_address
+  @billing_address
 Scenario Outline:vendor_billing_address_olusturma
     Given Kullanici Hubcomfy sayfasina gider
     Then Kullanici signin butonuna tiklar
@@ -27,7 +27,8 @@ Scenario Outline:vendor_billing_address_olusturma
     Then Kullanici province alanina Adana girer
     Then Kullanici phone alanina "<phone>" girer
     Then Kullanici save butonuna tiklar
-    And driver kapatilir
+    Then Kullanici driveri kapatir
+
 
 
 

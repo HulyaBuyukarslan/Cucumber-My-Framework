@@ -1,235 +1,1087 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="565.171" tests="8" skipped="0" failures="0" errors="0">
-<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.1" time="73.243">
+<testsuite name="Cucumber" time="138.321" tests="11" skipped="0" failures="10" errors="0">
+<testcase classname="Hubcomfy Vendor Billing Address Olusturma" name="vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.1" time="98.906">
 <system-out><![CDATA[
-Given Hubcomfy sayfasina gidildi............................................passed
-Then signin butonuna tiklandi...............................................passed
-Then email girildi..........................................................passed
-Then password girildi.......................................................passed
-Then login butonuna tiklandi................................................passed
-Then anasayfada oldugu dogrulandi...........................................passed
-Then my account yazisina tiklandi...........................................passed
-Then address yazisina tiklandi..............................................passed
-Then edit buton yazisina tiklandi...........................................passed
-Then var olan bilgiler silindi..............................................passed
-Then first name alanina "Roza" girildi......................................passed
-Then last name alanina "Mona" girildi.......................................passed
-Then company name alanina "Techpro" girildi.................................passed
-Then country alani tiklandi.................................................passed
-Then dropdown alani tiklandi................................................passed
-Then country alanina Turkey girildi.........................................passed
-Then street alanina "Asiyan mah" girildi....................................passed
-Then streett alanina "Murg sok." girildi....................................passed
-Then town city alanina "Seyhan" girildi.....................................passed
-Then province alani tiklandi................................................passed
-Then province dropdownu tiklandi............................................passed
-Then province alanina Adana girildi.........................................passed
-Then zipcode alanina "12345" girildi........................................passed
-Then save butonuna tiklandi.................................................passed
-And driver kapatildi........................................................passed
+Given Kullanici Hubcomfy sayfasina gider....................................passed
+Then Kullanici signin butonuna tiklar.......................................passed
+Then Kullanici email girer..................................................passed
+Then Kullanici password girer...............................................passed
+Then Kullanici login butonuna tiklar........................................passed
+Then Kullanici anasayfada oldugunu dogrular.................................passed
+Then Kullanici my account yazisina tiklar...................................passed
+Then Kullanici address yazisina tiklar......................................passed
+Then Kullanici edit buton yazisina tiklar...................................passed
+Then Kullanici var olan onceki bilgileri siler..............................passed
+Then Kullanici first name alanina "Ali" girer...............................passed
+Then Kullanici last name alanina "Can" girer................................passed
+Then Kullanici company name alanina "Techpro" girer.........................passed
+Then Kullanici country alanini tiklar.......................................passed
+Then Kullanici dropdown alanini tiklar......................................passed
+Then Kullanici country alanina Turkey girer.................................passed
+Then Kullanici street1 alanina "Sevgi mah" girer............................passed
+Then Kullanici street2 alanina "Vefa sok." girer............................passed
+Then Kullanici zipcode alanina "12345" girer................................passed
+Then Kullanici town city alanina "Ceyhan" girer.............................passed
+Then Kullanici province alanini tiklar......................................passed
+Then Kullanici province dropdownu tiklar....................................passed
+Then Kullanici province alanina Adana girer.................................passed
+Then Kullanici phone alanina "0555 444 33 22" girer.........................passed
+Then Kullanici save butonuna tiklar.........................................passed
+Then Kullanici driveri kapatir..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.2" time="75.815">
+<testcase classname="Hubcomfy Vendor Billing Address Olusturma" name="vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.2" time="36.37">
+<failure type="org.openqa.selenium.WebDriverException" message="unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe48f99f170a2b8dff8651a9f402301e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe48f99f170a2b8dff8651a9f402301e">
+<![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe48f99f170a2b8dff8651a9f402301e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe48f99f170a2b8dff8651a9f402301e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:954)
+	at utilities.Driver.getDriver(Driver.java:54)
+	at utilities.ReusableMethods.scrollDownActions(ReusableMethods.java:300)
+	at stepdefinitions.HubcomfyLoginStepDefinitions.kullanici_edit_buton_yazisina_tiklar(HubcomfyLoginStepDefinitions.java:66)
+	at ✽.Kullanici edit buton yazisina tiklar(file:///C:/Users/Hp/IdeaProjects/Cucumber_MyFramework/src/test/resources/features/vendorbillingaddress.feature:13)
+]]>
+</failure>
 <system-out><![CDATA[
-Given Hubcomfy sayfasina gidildi............................................passed
-Then signin butonuna tiklandi...............................................passed
-Then email girildi..........................................................passed
-Then password girildi.......................................................passed
-Then login butonuna tiklandi................................................passed
-Then anasayfada oldugu dogrulandi...........................................passed
-Then my account yazisina tiklandi...........................................passed
-Then address yazisina tiklandi..............................................passed
-Then edit buton yazisina tiklandi...........................................passed
-Then var olan bilgiler silindi..............................................passed
-Then first name alanina "" girildi..........................................passed
-Then last name alanina "Mona" girildi.......................................passed
-Then company name alanina "Techpro" girildi.................................passed
-Then country alani tiklandi.................................................passed
-Then dropdown alani tiklandi................................................passed
-Then country alanina Turkey girildi.........................................passed
-Then street alanina "Asiyan mah" girildi....................................passed
-Then streett alanina "Murg sok." girildi....................................passed
-Then town city alanina "Seyhan" girildi.....................................passed
-Then province alani tiklandi................................................passed
-Then province dropdownu tiklandi............................................passed
-Then province alanina Adana girildi.........................................passed
-Then zipcode alanina "12345" girildi........................................passed
-Then save butonuna tiklandi.................................................passed
-And driver kapatildi........................................................passed
+Given Kullanici Hubcomfy sayfasina gider....................................passed
+Then Kullanici signin butonuna tiklar.......................................passed
+Then Kullanici email girer..................................................passed
+Then Kullanici password girer...............................................passed
+Then Kullanici login butonuna tiklar........................................passed
+Then Kullanici anasayfada oldugunu dogrular.................................passed
+Then Kullanici my account yazisina tiklar...................................passed
+Then Kullanici address yazisina tiklar......................................passed
+Then Kullanici edit buton yazisina tiklar...................................failed
+Then Kullanici var olan onceki bilgileri siler..............................skipped
+Then Kullanici first name alanina "" girer..................................skipped
+Then Kullanici last name alanina "Can" girer................................skipped
+Then Kullanici company name alanina "Techpro" girer.........................skipped
+Then Kullanici country alanini tiklar.......................................skipped
+Then Kullanici dropdown alanini tiklar......................................skipped
+Then Kullanici country alanina Turkey girer.................................skipped
+Then Kullanici street1 alanina "Sevgi mah" girer............................skipped
+Then Kullanici street2 alanina "Vefa sok." girer............................skipped
+Then Kullanici zipcode alanina "12345" girer................................skipped
+Then Kullanici town city alanina "Ceyhan" girer.............................skipped
+Then Kullanici province alanini tiklar......................................skipped
+Then Kullanici province dropdownu tiklar....................................skipped
+Then Kullanici province alanina Adana girer.................................skipped
+Then Kullanici phone alanina "0555 444 33 22" girer.........................skipped
+Then Kullanici save butonuna tiklar.........................................skipped
+Then Kullanici driveri kapatir..............................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.3" time="68.546">
+<testcase classname="Hubcomfy Vendor Billing Address Olusturma" name="vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.3" time="1.495">
+<failure type="org.openqa.selenium.NoSuchWindowException" message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe48f99f170a2b8dff8651a9f402301e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe48f99f170a2b8dff8651a9f402301e">
+<![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe48f99f170a2b8dff8651a9f402301e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe48f99f170a2b8dff8651a9f402301e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:954)
+	at utilities.Driver.getDriver(Driver.java:54)
+	at utilities.ReusableMethods.clickByJS(ReusableMethods.java:295)
+	at stepdefinitions.HubcomfyLoginStepDefinitions.kullanici_signin_butonuna_tiklar(HubcomfyLoginStepDefinitions.java:23)
+	at ✽.Kullanici signin butonuna tiklar(file:///C:/Users/Hp/IdeaProjects/Cucumber_MyFramework/src/test/resources/features/vendorbillingaddress.feature:6)
+]]>
+</failure>
 <system-out><![CDATA[
-Given Hubcomfy sayfasina gidildi............................................passed
-Then signin butonuna tiklandi...............................................passed
-Then email girildi..........................................................passed
-Then password girildi.......................................................passed
-Then login butonuna tiklandi................................................passed
-Then anasayfada oldugu dogrulandi...........................................passed
-Then my account yazisina tiklandi...........................................passed
-Then address yazisina tiklandi..............................................passed
-Then edit buton yazisina tiklandi...........................................passed
-Then var olan bilgiler silindi..............................................passed
-Then first name alanina "Roza" girildi......................................passed
-Then last name alanina "" girildi...........................................passed
-Then company name alanina "Techpro" girildi.................................passed
-Then country alani tiklandi.................................................passed
-Then dropdown alani tiklandi................................................passed
-Then country alanina Turkey girildi.........................................passed
-Then street alanina "Asiyan mah" girildi....................................passed
-Then streett alanina "Murg sok." girildi....................................passed
-Then town city alanina "Seyhan" girildi.....................................passed
-Then province alani tiklandi................................................passed
-Then province dropdownu tiklandi............................................passed
-Then province alanina Adana girildi.........................................passed
-Then zipcode alanina "12345" girildi........................................passed
-Then save butonuna tiklandi.................................................passed
-And driver kapatildi........................................................passed
+Given Kullanici Hubcomfy sayfasina gider....................................passed
+Then Kullanici signin butonuna tiklar.......................................failed
+Then Kullanici email girer..................................................skipped
+Then Kullanici password girer...............................................skipped
+Then Kullanici login butonuna tiklar........................................skipped
+Then Kullanici anasayfada oldugunu dogrular.................................skipped
+Then Kullanici my account yazisina tiklar...................................skipped
+Then Kullanici address yazisina tiklar......................................skipped
+Then Kullanici edit buton yazisina tiklar...................................skipped
+Then Kullanici var olan onceki bilgileri siler..............................skipped
+Then Kullanici first name alanina "Ali" girer...............................skipped
+Then Kullanici last name alanina "" girer...................................skipped
+Then Kullanici company name alanina "Techpro" girer.........................skipped
+Then Kullanici country alanini tiklar.......................................skipped
+Then Kullanici dropdown alanini tiklar......................................skipped
+Then Kullanici country alanina Turkey girer.................................skipped
+Then Kullanici street1 alanina "Sevgi mah" girer............................skipped
+Then Kullanici street2 alanina "Vefa sok." girer............................skipped
+Then Kullanici zipcode alanina "12345" girer................................skipped
+Then Kullanici town city alanina "Ceyhan" girer.............................skipped
+Then Kullanici province alanini tiklar......................................skipped
+Then Kullanici province dropdownu tiklar....................................skipped
+Then Kullanici province alanina Adana girer.................................skipped
+Then Kullanici phone alanina "0555 444 33 22" girer.........................skipped
+Then Kullanici save butonuna tiklar.........................................skipped
+Then Kullanici driveri kapatir..............................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.4" time="69.208">
+<testcase classname="Hubcomfy Vendor Billing Address Olusturma" name="vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.4" time="0.181">
+<failure type="io.cucumber.core.exception.CucumberException" message="Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions">
+<![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 46 more
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe48f99f170a2b8dff8651a9f402301e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe48f99f170a2b8dff8651a9f402301e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:954)
+	at utilities.Driver.getDriver(Driver.java:54)
+	at pages.HubcomfyLoginPage.<init>(HubcomfyLoginPage.java:12)
+	at stepdefinitions.HubcomfyLoginStepDefinitions.<init>(HubcomfyLoginStepDefinitions.java:13)
+	... 51 more
+]]>
+</failure>
 <system-out><![CDATA[
-Given Hubcomfy sayfasina gidildi............................................passed
-Then signin butonuna tiklandi...............................................passed
-Then email girildi..........................................................passed
-Then password girildi.......................................................passed
-Then login butonuna tiklandi................................................passed
-Then anasayfada oldugu dogrulandi...........................................passed
-Then my account yazisina tiklandi...........................................passed
-Then address yazisina tiklandi..............................................passed
-Then edit buton yazisina tiklandi...........................................passed
-Then var olan bilgiler silindi..............................................passed
-Then first name alanina "Roza" girildi......................................passed
-Then last name alanina "Mona" girildi.......................................passed
-Then company name alanina "" girildi........................................passed
-Then country alani tiklandi.................................................passed
-Then dropdown alani tiklandi................................................passed
-Then country alanina Turkey girildi.........................................passed
-Then street alanina "Asiyan mah" girildi....................................passed
-Then streett alanina "Murg sok." girildi....................................passed
-Then town city alanina "Seyhan" girildi.....................................passed
-Then province alani tiklandi................................................passed
-Then province dropdownu tiklandi............................................passed
-Then province alanina Adana girildi.........................................passed
-Then zipcode alanina "12345" girildi........................................passed
-Then save butonuna tiklandi.................................................passed
-And driver kapatildi........................................................passed
+Given Kullanici Hubcomfy sayfasina gider....................................failed
+Then Kullanici signin butonuna tiklar.......................................skipped
+Then Kullanici email girer..................................................skipped
+Then Kullanici password girer...............................................skipped
+Then Kullanici login butonuna tiklar........................................skipped
+Then Kullanici anasayfada oldugunu dogrular.................................skipped
+Then Kullanici my account yazisina tiklar...................................skipped
+Then Kullanici address yazisina tiklar......................................skipped
+Then Kullanici edit buton yazisina tiklar...................................skipped
+Then Kullanici var olan onceki bilgileri siler..............................skipped
+Then Kullanici first name alanina "Ali" girer...............................skipped
+Then Kullanici last name alanina "Can" girer................................skipped
+Then Kullanici company name alanina "" girer................................skipped
+Then Kullanici country alanini tiklar.......................................skipped
+Then Kullanici dropdown alanini tiklar......................................skipped
+Then Kullanici country alanina Turkey girer.................................skipped
+Then Kullanici street1 alanina "Sevgi mah" girer............................skipped
+Then Kullanici street2 alanina "Vefa sok." girer............................skipped
+Then Kullanici zipcode alanina "12345" girer................................skipped
+Then Kullanici town city alanina "Ceyhan" girer.............................skipped
+Then Kullanici province alanini tiklar......................................skipped
+Then Kullanici province dropdownu tiklar....................................skipped
+Then Kullanici province alanina Adana girer.................................skipped
+Then Kullanici phone alanina "0555 444 33 22" girer.........................skipped
+Then Kullanici save butonuna tiklar.........................................skipped
+Then Kullanici driveri kapatir..............................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.5" time="68.857">
+<testcase classname="Hubcomfy Vendor Billing Address Olusturma" name="vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.5" time="0.125">
+<failure type="io.cucumber.core.exception.CucumberException" message="Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions">
+<![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 46 more
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe48f99f170a2b8dff8651a9f402301e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe48f99f170a2b8dff8651a9f402301e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:954)
+	at utilities.Driver.getDriver(Driver.java:54)
+	at pages.HubcomfyLoginPage.<init>(HubcomfyLoginPage.java:12)
+	at stepdefinitions.HubcomfyLoginStepDefinitions.<init>(HubcomfyLoginStepDefinitions.java:13)
+	... 51 more
+]]>
+</failure>
 <system-out><![CDATA[
-Given Hubcomfy sayfasina gidildi............................................passed
-Then signin butonuna tiklandi...............................................passed
-Then email girildi..........................................................passed
-Then password girildi.......................................................passed
-Then login butonuna tiklandi................................................passed
-Then anasayfada oldugu dogrulandi...........................................passed
-Then my account yazisina tiklandi...........................................passed
-Then address yazisina tiklandi..............................................passed
-Then edit buton yazisina tiklandi...........................................passed
-Then var olan bilgiler silindi..............................................passed
-Then first name alanina "Roza" girildi......................................passed
-Then last name alanina "Mona" girildi.......................................passed
-Then company name alanina "Techpro" girildi.................................passed
-Then country alani tiklandi.................................................passed
-Then dropdown alani tiklandi................................................passed
-Then country alanina Turkey girildi.........................................passed
-Then street alanina "" girildi..............................................passed
-Then streett alanina "Murg sok." girildi....................................passed
-Then town city alanina "Seyhan" girildi.....................................passed
-Then province alani tiklandi................................................passed
-Then province dropdownu tiklandi............................................passed
-Then province alanina Adana girildi.........................................passed
-Then zipcode alanina "12345" girildi........................................passed
-Then save butonuna tiklandi.................................................passed
-And driver kapatildi........................................................passed
+Given Kullanici Hubcomfy sayfasina gider....................................failed
+Then Kullanici signin butonuna tiklar.......................................skipped
+Then Kullanici email girer..................................................skipped
+Then Kullanici password girer...............................................skipped
+Then Kullanici login butonuna tiklar........................................skipped
+Then Kullanici anasayfada oldugunu dogrular.................................skipped
+Then Kullanici my account yazisina tiklar...................................skipped
+Then Kullanici address yazisina tiklar......................................skipped
+Then Kullanici edit buton yazisina tiklar...................................skipped
+Then Kullanici var olan onceki bilgileri siler..............................skipped
+Then Kullanici first name alanina "Ali" girer...............................skipped
+Then Kullanici last name alanina "Can" girer................................skipped
+Then Kullanici company name alanina "Techpro" girer.........................skipped
+Then Kullanici country alanini tiklar.......................................skipped
+Then Kullanici dropdown alanini tiklar......................................skipped
+Then Kullanici country alanina Turkey girer.................................skipped
+Then Kullanici street1 alanina "Sevgi mah" girer............................skipped
+Then Kullanici street2 alanina "Vefa sok." girer............................skipped
+Then Kullanici zipcode alanina "12345" girer................................skipped
+Then Kullanici town city alanina "Ceyhan" girer.............................skipped
+Then Kullanici province alanini tiklar......................................skipped
+Then Kullanici province dropdownu tiklar....................................skipped
+Then Kullanici province alanina Adana girer.................................skipped
+Then Kullanici phone alanina "0555 444 33 22" girer.........................skipped
+Then Kullanici save butonuna tiklar.........................................skipped
+Then Kullanici driveri kapatir..............................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.6" time="69.016">
+<testcase classname="Hubcomfy Vendor Billing Address Olusturma" name="vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.6" time="0.056">
+<failure type="io.cucumber.core.exception.CucumberException" message="Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions">
+<![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 46 more
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe48f99f170a2b8dff8651a9f402301e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe48f99f170a2b8dff8651a9f402301e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:954)
+	at utilities.Driver.getDriver(Driver.java:54)
+	at pages.HubcomfyLoginPage.<init>(HubcomfyLoginPage.java:12)
+	at stepdefinitions.HubcomfyLoginStepDefinitions.<init>(HubcomfyLoginStepDefinitions.java:13)
+	... 51 more
+]]>
+</failure>
 <system-out><![CDATA[
-Given Hubcomfy sayfasina gidildi............................................passed
-Then signin butonuna tiklandi...............................................passed
-Then email girildi..........................................................passed
-Then password girildi.......................................................passed
-Then login butonuna tiklandi................................................passed
-Then anasayfada oldugu dogrulandi...........................................passed
-Then my account yazisina tiklandi...........................................passed
-Then address yazisina tiklandi..............................................passed
-Then edit buton yazisina tiklandi...........................................passed
-Then var olan bilgiler silindi..............................................passed
-Then first name alanina "Roza" girildi......................................passed
-Then last name alanina "Mona" girildi.......................................passed
-Then company name alanina "Techpro" girildi.................................passed
-Then country alani tiklandi.................................................passed
-Then dropdown alani tiklandi................................................passed
-Then country alanina Turkey girildi.........................................passed
-Then street alanina "Asiyan mah" girildi....................................passed
-Then streett alanina "" girildi.............................................passed
-Then town city alanina "Seyhan" girildi.....................................passed
-Then province alani tiklandi................................................passed
-Then province dropdownu tiklandi............................................passed
-Then province alanina Adana girildi.........................................passed
-Then zipcode alanina "12345" girildi........................................passed
-Then save butonuna tiklandi.................................................passed
-And driver kapatildi........................................................passed
+Given Kullanici Hubcomfy sayfasina gider....................................failed
+Then Kullanici signin butonuna tiklar.......................................skipped
+Then Kullanici email girer..................................................skipped
+Then Kullanici password girer...............................................skipped
+Then Kullanici login butonuna tiklar........................................skipped
+Then Kullanici anasayfada oldugunu dogrular.................................skipped
+Then Kullanici my account yazisina tiklar...................................skipped
+Then Kullanici address yazisina tiklar......................................skipped
+Then Kullanici edit buton yazisina tiklar...................................skipped
+Then Kullanici var olan onceki bilgileri siler..............................skipped
+Then Kullanici first name alanina "Ali" girer...............................skipped
+Then Kullanici last name alanina "Can" girer................................skipped
+Then Kullanici company name alanina "Techpro" girer.........................skipped
+Then Kullanici country alanini tiklar.......................................skipped
+Then Kullanici dropdown alanini tiklar......................................skipped
+Then Kullanici country alanina Turkey girer.................................skipped
+Then Kullanici street1 alanina "" girer.....................................skipped
+Then Kullanici street2 alanina "Vefa sok." girer............................skipped
+Then Kullanici zipcode alanina "12345" girer................................skipped
+Then Kullanici town city alanina "Ceyhan" girer.............................skipped
+Then Kullanici province alanini tiklar......................................skipped
+Then Kullanici province dropdownu tiklar....................................skipped
+Then Kullanici province alanina Adana girer.................................skipped
+Then Kullanici phone alanina "0555 444 33 22" girer.........................skipped
+Then Kullanici save butonuna tiklar.........................................skipped
+Then Kullanici driveri kapatir..............................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.7" time="71.635">
+<testcase classname="Hubcomfy Vendor Billing Address Olusturma" name="vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.7" time="0.069">
+<failure type="io.cucumber.core.exception.CucumberException" message="Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions">
+<![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 46 more
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe48f99f170a2b8dff8651a9f402301e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe48f99f170a2b8dff8651a9f402301e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:954)
+	at utilities.Driver.getDriver(Driver.java:54)
+	at pages.HubcomfyLoginPage.<init>(HubcomfyLoginPage.java:12)
+	at stepdefinitions.HubcomfyLoginStepDefinitions.<init>(HubcomfyLoginStepDefinitions.java:13)
+	... 51 more
+]]>
+</failure>
 <system-out><![CDATA[
-Given Hubcomfy sayfasina gidildi............................................passed
-Then signin butonuna tiklandi...............................................passed
-Then email girildi..........................................................passed
-Then password girildi.......................................................passed
-Then login butonuna tiklandi................................................passed
-Then anasayfada oldugu dogrulandi...........................................passed
-Then my account yazisina tiklandi...........................................passed
-Then address yazisina tiklandi..............................................passed
-Then edit buton yazisina tiklandi...........................................passed
-Then var olan bilgiler silindi..............................................passed
-Then first name alanina "Roza" girildi......................................passed
-Then last name alanina "Mona" girildi.......................................passed
-Then company name alanina "Techpro" girildi.................................passed
-Then country alani tiklandi.................................................passed
-Then dropdown alani tiklandi................................................passed
-Then country alanina Turkey girildi.........................................passed
-Then street alanina "Asiyan mah" girildi....................................passed
-Then streett alanina "Murg sok." girildi....................................passed
-Then town city alanina "" girildi...........................................passed
-Then province alani tiklandi................................................passed
-Then province dropdownu tiklandi............................................passed
-Then province alanina Adana girildi.........................................passed
-Then zipcode alanina "12345" girildi........................................passed
-Then save butonuna tiklandi.................................................passed
-And driver kapatildi........................................................passed
+Given Kullanici Hubcomfy sayfasina gider....................................failed
+Then Kullanici signin butonuna tiklar.......................................skipped
+Then Kullanici email girer..................................................skipped
+Then Kullanici password girer...............................................skipped
+Then Kullanici login butonuna tiklar........................................skipped
+Then Kullanici anasayfada oldugunu dogrular.................................skipped
+Then Kullanici my account yazisina tiklar...................................skipped
+Then Kullanici address yazisina tiklar......................................skipped
+Then Kullanici edit buton yazisina tiklar...................................skipped
+Then Kullanici var olan onceki bilgileri siler..............................skipped
+Then Kullanici first name alanina "Ali" girer...............................skipped
+Then Kullanici last name alanina "Can" girer................................skipped
+Then Kullanici company name alanina "Techpro" girer.........................skipped
+Then Kullanici country alanini tiklar.......................................skipped
+Then Kullanici dropdown alanini tiklar......................................skipped
+Then Kullanici country alanina Turkey girer.................................skipped
+Then Kullanici street1 alanina "Sevgi mah" girer............................skipped
+Then Kullanici street2 alanina "" girer.....................................skipped
+Then Kullanici zipcode alanina "12345" girer................................skipped
+Then Kullanici town city alanina "Ceyhan" girer.............................skipped
+Then Kullanici province alanini tiklar......................................skipped
+Then Kullanici province dropdownu tiklar....................................skipped
+Then Kullanici province alanina Adana girer.................................skipped
+Then Kullanici phone alanina "0555 444 33 22" girer.........................skipped
+Then Kullanici save butonuna tiklar.........................................skipped
+Then Kullanici driveri kapatir..............................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.8" time="68.303">
+<testcase classname="Hubcomfy Vendor Billing Address Olusturma" name="vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.8" time="0.043">
+<failure type="io.cucumber.core.exception.CucumberException" message="Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions">
+<![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 46 more
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe48f99f170a2b8dff8651a9f402301e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe48f99f170a2b8dff8651a9f402301e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:954)
+	at utilities.Driver.getDriver(Driver.java:54)
+	at pages.HubcomfyLoginPage.<init>(HubcomfyLoginPage.java:12)
+	at stepdefinitions.HubcomfyLoginStepDefinitions.<init>(HubcomfyLoginStepDefinitions.java:13)
+	... 51 more
+]]>
+</failure>
 <system-out><![CDATA[
-Given Hubcomfy sayfasina gidildi............................................passed
-Then signin butonuna tiklandi...............................................passed
-Then email girildi..........................................................passed
-Then password girildi.......................................................passed
-Then login butonuna tiklandi................................................passed
-Then anasayfada oldugu dogrulandi...........................................passed
-Then my account yazisina tiklandi...........................................passed
-Then address yazisina tiklandi..............................................passed
-Then edit buton yazisina tiklandi...........................................passed
-Then var olan bilgiler silindi..............................................passed
-Then first name alanina "Roza" girildi......................................passed
-Then last name alanina "Mona" girildi.......................................passed
-Then company name alanina "Techpro" girildi.................................passed
-Then country alani tiklandi.................................................passed
-Then dropdown alani tiklandi................................................passed
-Then country alanina Turkey girildi.........................................passed
-Then street alanina "Asiyan mah" girildi....................................passed
-Then streett alanina "Murg sok." girildi....................................passed
-Then town city alanina "Seyhan" girildi.....................................passed
-Then province alani tiklandi................................................passed
-Then province dropdownu tiklandi............................................passed
-Then province alanina Adana girildi.........................................passed
-Then zipcode alanina "" girildi.............................................passed
-Then save butonuna tiklandi.................................................passed
-And driver kapatildi........................................................passed
+Given Kullanici Hubcomfy sayfasina gider....................................failed
+Then Kullanici signin butonuna tiklar.......................................skipped
+Then Kullanici email girer..................................................skipped
+Then Kullanici password girer...............................................skipped
+Then Kullanici login butonuna tiklar........................................skipped
+Then Kullanici anasayfada oldugunu dogrular.................................skipped
+Then Kullanici my account yazisina tiklar...................................skipped
+Then Kullanici address yazisina tiklar......................................skipped
+Then Kullanici edit buton yazisina tiklar...................................skipped
+Then Kullanici var olan onceki bilgileri siler..............................skipped
+Then Kullanici first name alanina "Ali" girer...............................skipped
+Then Kullanici last name alanina "Can" girer................................skipped
+Then Kullanici company name alanina "Techpro" girer.........................skipped
+Then Kullanici country alanini tiklar.......................................skipped
+Then Kullanici dropdown alanini tiklar......................................skipped
+Then Kullanici country alanina Turkey girer.................................skipped
+Then Kullanici street1 alanina "Sevgi mah" girer............................skipped
+Then Kullanici street2 alanina "Vefa sok." girer............................skipped
+Then Kullanici zipcode alanina "" girer.....................................skipped
+Then Kullanici town city alanina "Ceyhan" girer.............................skipped
+Then Kullanici province alanini tiklar......................................skipped
+Then Kullanici province dropdownu tiklar....................................skipped
+Then Kullanici province alanina Adana girer.................................skipped
+Then Kullanici phone alanina "0555 444 33 22" girer.........................skipped
+Then Kullanici save butonuna tiklar.........................................skipped
+Then Kullanici driveri kapatir..............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Hubcomfy Vendor Billing Address Olusturma" name="vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.9" time="0.061">
+<failure type="io.cucumber.core.exception.CucumberException" message="Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions">
+<![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 46 more
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe48f99f170a2b8dff8651a9f402301e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe48f99f170a2b8dff8651a9f402301e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:954)
+	at utilities.Driver.getDriver(Driver.java:54)
+	at pages.HubcomfyLoginPage.<init>(HubcomfyLoginPage.java:12)
+	at stepdefinitions.HubcomfyLoginStepDefinitions.<init>(HubcomfyLoginStepDefinitions.java:13)
+	... 51 more
+]]>
+</failure>
+<system-out><![CDATA[
+Given Kullanici Hubcomfy sayfasina gider....................................failed
+Then Kullanici signin butonuna tiklar.......................................skipped
+Then Kullanici email girer..................................................skipped
+Then Kullanici password girer...............................................skipped
+Then Kullanici login butonuna tiklar........................................skipped
+Then Kullanici anasayfada oldugunu dogrular.................................skipped
+Then Kullanici my account yazisina tiklar...................................skipped
+Then Kullanici address yazisina tiklar......................................skipped
+Then Kullanici edit buton yazisina tiklar...................................skipped
+Then Kullanici var olan onceki bilgileri siler..............................skipped
+Then Kullanici first name alanina "Ali" girer...............................skipped
+Then Kullanici last name alanina "Can" girer................................skipped
+Then Kullanici company name alanina "Techpro" girer.........................skipped
+Then Kullanici country alanini tiklar.......................................skipped
+Then Kullanici dropdown alanini tiklar......................................skipped
+Then Kullanici country alanina Turkey girer.................................skipped
+Then Kullanici street1 alanina "Sevgi mah" girer............................skipped
+Then Kullanici street2 alanina "Vefa sok." girer............................skipped
+Then Kullanici zipcode alanina "12345" girer................................skipped
+Then Kullanici town city alanina "" girer...................................skipped
+Then Kullanici province alanini tiklar......................................skipped
+Then Kullanici province dropdownu tiklar....................................skipped
+Then Kullanici province alanina Adana girer.................................skipped
+Then Kullanici phone alanina "0555 444 33 22" girer.........................skipped
+Then Kullanici save butonuna tiklar.........................................skipped
+Then Kullanici driveri kapatir..............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Hubcomfy Vendor Billing Address Olusturma" name="vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.10" time="0.066">
+<failure type="io.cucumber.core.exception.CucumberException" message="Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions">
+<![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 46 more
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe48f99f170a2b8dff8651a9f402301e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe48f99f170a2b8dff8651a9f402301e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:954)
+	at utilities.Driver.getDriver(Driver.java:54)
+	at pages.HubcomfyLoginPage.<init>(HubcomfyLoginPage.java:12)
+	at stepdefinitions.HubcomfyLoginStepDefinitions.<init>(HubcomfyLoginStepDefinitions.java:13)
+	... 51 more
+]]>
+</failure>
+<system-out><![CDATA[
+Given Kullanici Hubcomfy sayfasina gider....................................failed
+Then Kullanici signin butonuna tiklar.......................................skipped
+Then Kullanici email girer..................................................skipped
+Then Kullanici password girer...............................................skipped
+Then Kullanici login butonuna tiklar........................................skipped
+Then Kullanici anasayfada oldugunu dogrular.................................skipped
+Then Kullanici my account yazisina tiklar...................................skipped
+Then Kullanici address yazisina tiklar......................................skipped
+Then Kullanici edit buton yazisina tiklar...................................skipped
+Then Kullanici var olan onceki bilgileri siler..............................skipped
+Then Kullanici first name alanina "Ali" girer...............................skipped
+Then Kullanici last name alanina "Can" girer................................skipped
+Then Kullanici company name alanina "Techpro" girer.........................skipped
+Then Kullanici country alanini tiklar.......................................skipped
+Then Kullanici dropdown alanini tiklar......................................skipped
+Then Kullanici country alanina Turkey girer.................................skipped
+Then Kullanici street1 alanina "Sevgi mah" girer............................skipped
+Then Kullanici street2 alanina "Vefa sok." girer............................skipped
+Then Kullanici zipcode alanina "12345" girer................................skipped
+Then Kullanici town city alanina "Ceyhan" girer.............................skipped
+Then Kullanici province alanini tiklar......................................skipped
+Then Kullanici province dropdownu tiklar....................................skipped
+Then Kullanici province alanina Adana girer.................................skipped
+Then Kullanici phone alanina "0555 444 33 22" girer.........................skipped
+Then Kullanici save butonuna tiklar.........................................skipped
+Then Kullanici driveri kapatir..............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Hubcomfy Vendor Billing Address Olusturma" name="vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.11" time="0.036">
+<failure type="io.cucumber.core.exception.CucumberException" message="Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions">
+<![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.HubcomfyLoginStepDefinitions
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 46 more
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe48f99f170a2b8dff8651a9f402301e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe48f99f170a2b8dff8651a9f402301e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:954)
+	at utilities.Driver.getDriver(Driver.java:54)
+	at pages.HubcomfyLoginPage.<init>(HubcomfyLoginPage.java:12)
+	at stepdefinitions.HubcomfyLoginStepDefinitions.<init>(HubcomfyLoginStepDefinitions.java:13)
+	... 51 more
+]]>
+</failure>
+<system-out><![CDATA[
+Given Kullanici Hubcomfy sayfasina gider....................................failed
+Then Kullanici signin butonuna tiklar.......................................skipped
+Then Kullanici email girer..................................................skipped
+Then Kullanici password girer...............................................skipped
+Then Kullanici login butonuna tiklar........................................skipped
+Then Kullanici anasayfada oldugunu dogrular.................................skipped
+Then Kullanici my account yazisina tiklar...................................skipped
+Then Kullanici address yazisina tiklar......................................skipped
+Then Kullanici edit buton yazisina tiklar...................................skipped
+Then Kullanici var olan onceki bilgileri siler..............................skipped
+Then Kullanici first name alanina "Ali" girer...............................skipped
+Then Kullanici last name alanina "Can" girer................................skipped
+Then Kullanici company name alanina "Techpro" girer.........................skipped
+Then Kullanici country alanini tiklar.......................................skipped
+Then Kullanici dropdown alanini tiklar......................................skipped
+Then Kullanici country alanina Turkey girer.................................skipped
+Then Kullanici street1 alanina "Sevgi mah" girer............................skipped
+Then Kullanici street2 alanina "Vefa sok." girer............................skipped
+Then Kullanici zipcode alanina "12345" girer................................skipped
+Then Kullanici town city alanina "Ceyhan" girer.............................skipped
+Then Kullanici province alanini tiklar......................................skipped
+Then Kullanici province dropdownu tiklar....................................skipped
+Then Kullanici province alanina Adana girer.................................skipped
+Then Kullanici phone alanina "" girer.......................................skipped
+Then Kullanici save butonuna tiklar.........................................skipped
+Then Kullanici driveri kapatir..............................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>
