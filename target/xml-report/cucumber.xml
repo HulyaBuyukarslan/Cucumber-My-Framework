@@ -1,333 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="1,043.864" tests="11" skipped="0" failures="0" errors="0">
-<testcase classname="Hubcomfy Vendor Address Olusturma" name="Hubccomfy_vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.1" time="104.506">
+<testsuite name="Cucumber" time="565.171" tests="8" skipped="0" failures="0" errors="0">
+<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.1" time="73.243">
 <system-out><![CDATA[
-Given Kullanici Hubcomfy sayfasina gider....................................passed
-Then Kullanici signin butonuna tiklar.......................................passed
-Then Kullanici email girer..................................................passed
-Then Kullanici password girer...............................................passed
-Then Kullanici login butonuna tiklar........................................passed
-Then Kullanici anasayfada oldugunu dogrular.................................passed
-Then Kullanici my account yazisina tiklar...................................passed
-Then Kullanici address yazisina tiklar......................................passed
-Then Kullanici edit buton yazisina tiklar...................................passed
-Then Kullanici var olan onceki bilgileri siler..............................passed
-Then Kullanici first name alanina "Ali" girer...............................passed
-Then Kullanici last name alanina "Can" girer................................passed
-Then Kullanici company name alanina "Techpro" girer.........................passed
-Then Kullanici country alanini tiklar.......................................passed
-Then Kullanici dropdown alanini tiklar......................................passed
-Then Kullanici country alanina Turkey girer.................................passed
-Then Kullanici street1 alanina "Sevgi mah" girer............................passed
-Then Kullanici street2 alanina "Vefa sok." girer............................passed
-Then Kullanici zipcode alanina "12345" girer................................passed
-Then Kullanici town city alanina "Ceyhan" girer.............................passed
-Then Kullanici province alanini tiklar......................................passed
-Then Kullanici province dropdownu tiklar....................................passed
-Then Kullanici province alanina Adana girer.................................passed
-Then Kullanici phone alanina "0555 444 33 22" girer.........................passed
-Then Kullanici save butonuna tiklar.........................................passed
-And driver kapatilir........................................................passed
+Given Hubcomfy sayfasina gidildi............................................passed
+Then signin butonuna tiklandi...............................................passed
+Then email girildi..........................................................passed
+Then password girildi.......................................................passed
+Then login butonuna tiklandi................................................passed
+Then anasayfada oldugu dogrulandi...........................................passed
+Then my account yazisina tiklandi...........................................passed
+Then address yazisina tiklandi..............................................passed
+Then edit buton yazisina tiklandi...........................................passed
+Then var olan bilgiler silindi..............................................passed
+Then first name alanina "Roza" girildi......................................passed
+Then last name alanina "Mona" girildi.......................................passed
+Then company name alanina "Techpro" girildi.................................passed
+Then country alani tiklandi.................................................passed
+Then dropdown alani tiklandi................................................passed
+Then country alanina Turkey girildi.........................................passed
+Then street alanina "Asiyan mah" girildi....................................passed
+Then streett alanina "Murg sok." girildi....................................passed
+Then town city alanina "Seyhan" girildi.....................................passed
+Then province alani tiklandi................................................passed
+Then province dropdownu tiklandi............................................passed
+Then province alanina Adana girildi.........................................passed
+Then zipcode alanina "12345" girildi........................................passed
+Then save butonuna tiklandi.................................................passed
+And driver kapatildi........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Address Olusturma" name="Hubccomfy_vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.2" time="96.916">
+<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.2" time="75.815">
 <system-out><![CDATA[
-Given Kullanici Hubcomfy sayfasina gider....................................passed
-Then Kullanici signin butonuna tiklar.......................................passed
-Then Kullanici email girer..................................................passed
-Then Kullanici password girer...............................................passed
-Then Kullanici login butonuna tiklar........................................passed
-Then Kullanici anasayfada oldugunu dogrular.................................passed
-Then Kullanici my account yazisina tiklar...................................passed
-Then Kullanici address yazisina tiklar......................................passed
-Then Kullanici edit buton yazisina tiklar...................................passed
-Then Kullanici var olan onceki bilgileri siler..............................passed
-Then Kullanici first name alanina "" girer..................................passed
-Then Kullanici last name alanina "Can" girer................................passed
-Then Kullanici company name alanina "Techpro" girer.........................passed
-Then Kullanici country alanini tiklar.......................................passed
-Then Kullanici dropdown alanini tiklar......................................passed
-Then Kullanici country alanina Turkey girer.................................passed
-Then Kullanici street1 alanina "Sevgi mah" girer............................passed
-Then Kullanici street2 alanina "Vefa sok." girer............................passed
-Then Kullanici zipcode alanina "12345" girer................................passed
-Then Kullanici town city alanina "Ceyhan" girer.............................passed
-Then Kullanici province alanini tiklar......................................passed
-Then Kullanici province dropdownu tiklar....................................passed
-Then Kullanici province alanina Adana girer.................................passed
-Then Kullanici phone alanina "0555 444 33 22" girer.........................passed
-Then Kullanici save butonuna tiklar.........................................passed
-And driver kapatilir........................................................passed
+Given Hubcomfy sayfasina gidildi............................................passed
+Then signin butonuna tiklandi...............................................passed
+Then email girildi..........................................................passed
+Then password girildi.......................................................passed
+Then login butonuna tiklandi................................................passed
+Then anasayfada oldugu dogrulandi...........................................passed
+Then my account yazisina tiklandi...........................................passed
+Then address yazisina tiklandi..............................................passed
+Then edit buton yazisina tiklandi...........................................passed
+Then var olan bilgiler silindi..............................................passed
+Then first name alanina "" girildi..........................................passed
+Then last name alanina "Mona" girildi.......................................passed
+Then company name alanina "Techpro" girildi.................................passed
+Then country alani tiklandi.................................................passed
+Then dropdown alani tiklandi................................................passed
+Then country alanina Turkey girildi.........................................passed
+Then street alanina "Asiyan mah" girildi....................................passed
+Then streett alanina "Murg sok." girildi....................................passed
+Then town city alanina "Seyhan" girildi.....................................passed
+Then province alani tiklandi................................................passed
+Then province dropdownu tiklandi............................................passed
+Then province alanina Adana girildi.........................................passed
+Then zipcode alanina "12345" girildi........................................passed
+Then save butonuna tiklandi.................................................passed
+And driver kapatildi........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Address Olusturma" name="Hubccomfy_vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.3" time="103.027">
+<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.3" time="68.546">
 <system-out><![CDATA[
-Given Kullanici Hubcomfy sayfasina gider....................................passed
-Then Kullanici signin butonuna tiklar.......................................passed
-Then Kullanici email girer..................................................passed
-Then Kullanici password girer...............................................passed
-Then Kullanici login butonuna tiklar........................................passed
-Then Kullanici anasayfada oldugunu dogrular.................................passed
-Then Kullanici my account yazisina tiklar...................................passed
-Then Kullanici address yazisina tiklar......................................passed
-Then Kullanici edit buton yazisina tiklar...................................passed
-Then Kullanici var olan onceki bilgileri siler..............................passed
-Then Kullanici first name alanina "Ali" girer...............................passed
-Then Kullanici last name alanina "" girer...................................passed
-Then Kullanici company name alanina "Techpro" girer.........................passed
-Then Kullanici country alanini tiklar.......................................passed
-Then Kullanici dropdown alanini tiklar......................................passed
-Then Kullanici country alanina Turkey girer.................................passed
-Then Kullanici street1 alanina "Sevgi mah" girer............................passed
-Then Kullanici street2 alanina "Vefa sok." girer............................passed
-Then Kullanici zipcode alanina "12345" girer................................passed
-Then Kullanici town city alanina "Ceyhan" girer.............................passed
-Then Kullanici province alanini tiklar......................................passed
-Then Kullanici province dropdownu tiklar....................................passed
-Then Kullanici province alanina Adana girer.................................passed
-Then Kullanici phone alanina "0555 444 33 22" girer.........................passed
-Then Kullanici save butonuna tiklar.........................................passed
-And driver kapatilir........................................................passed
+Given Hubcomfy sayfasina gidildi............................................passed
+Then signin butonuna tiklandi...............................................passed
+Then email girildi..........................................................passed
+Then password girildi.......................................................passed
+Then login butonuna tiklandi................................................passed
+Then anasayfada oldugu dogrulandi...........................................passed
+Then my account yazisina tiklandi...........................................passed
+Then address yazisina tiklandi..............................................passed
+Then edit buton yazisina tiklandi...........................................passed
+Then var olan bilgiler silindi..............................................passed
+Then first name alanina "Roza" girildi......................................passed
+Then last name alanina "" girildi...........................................passed
+Then company name alanina "Techpro" girildi.................................passed
+Then country alani tiklandi.................................................passed
+Then dropdown alani tiklandi................................................passed
+Then country alanina Turkey girildi.........................................passed
+Then street alanina "Asiyan mah" girildi....................................passed
+Then streett alanina "Murg sok." girildi....................................passed
+Then town city alanina "Seyhan" girildi.....................................passed
+Then province alani tiklandi................................................passed
+Then province dropdownu tiklandi............................................passed
+Then province alanina Adana girildi.........................................passed
+Then zipcode alanina "12345" girildi........................................passed
+Then save butonuna tiklandi.................................................passed
+And driver kapatildi........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Address Olusturma" name="Hubccomfy_vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.4" time="94.22">
+<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.4" time="69.208">
 <system-out><![CDATA[
-Given Kullanici Hubcomfy sayfasina gider....................................passed
-Then Kullanici signin butonuna tiklar.......................................passed
-Then Kullanici email girer..................................................passed
-Then Kullanici password girer...............................................passed
-Then Kullanici login butonuna tiklar........................................passed
-Then Kullanici anasayfada oldugunu dogrular.................................passed
-Then Kullanici my account yazisina tiklar...................................passed
-Then Kullanici address yazisina tiklar......................................passed
-Then Kullanici edit buton yazisina tiklar...................................passed
-Then Kullanici var olan onceki bilgileri siler..............................passed
-Then Kullanici first name alanina "Ali" girer...............................passed
-Then Kullanici last name alanina "Can" girer................................passed
-Then Kullanici company name alanina "" girer................................passed
-Then Kullanici country alanini tiklar.......................................passed
-Then Kullanici dropdown alanini tiklar......................................passed
-Then Kullanici country alanina Turkey girer.................................passed
-Then Kullanici street1 alanina "Sevgi mah" girer............................passed
-Then Kullanici street2 alanina "Vefa sok." girer............................passed
-Then Kullanici zipcode alanina "12345" girer................................passed
-Then Kullanici town city alanina "Ceyhan" girer.............................passed
-Then Kullanici province alanini tiklar......................................passed
-Then Kullanici province dropdownu tiklar....................................passed
-Then Kullanici province alanina Adana girer.................................passed
-Then Kullanici phone alanina "0555 444 33 22" girer.........................passed
-Then Kullanici save butonuna tiklar.........................................passed
-And driver kapatilir........................................................passed
+Given Hubcomfy sayfasina gidildi............................................passed
+Then signin butonuna tiklandi...............................................passed
+Then email girildi..........................................................passed
+Then password girildi.......................................................passed
+Then login butonuna tiklandi................................................passed
+Then anasayfada oldugu dogrulandi...........................................passed
+Then my account yazisina tiklandi...........................................passed
+Then address yazisina tiklandi..............................................passed
+Then edit buton yazisina tiklandi...........................................passed
+Then var olan bilgiler silindi..............................................passed
+Then first name alanina "Roza" girildi......................................passed
+Then last name alanina "Mona" girildi.......................................passed
+Then company name alanina "" girildi........................................passed
+Then country alani tiklandi.................................................passed
+Then dropdown alani tiklandi................................................passed
+Then country alanina Turkey girildi.........................................passed
+Then street alanina "Asiyan mah" girildi....................................passed
+Then streett alanina "Murg sok." girildi....................................passed
+Then town city alanina "Seyhan" girildi.....................................passed
+Then province alani tiklandi................................................passed
+Then province dropdownu tiklandi............................................passed
+Then province alanina Adana girildi.........................................passed
+Then zipcode alanina "12345" girildi........................................passed
+Then save butonuna tiklandi.................................................passed
+And driver kapatildi........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Address Olusturma" name="Hubccomfy_vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.5" time="96.233">
+<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.5" time="68.857">
 <system-out><![CDATA[
-Given Kullanici Hubcomfy sayfasina gider....................................passed
-Then Kullanici signin butonuna tiklar.......................................passed
-Then Kullanici email girer..................................................passed
-Then Kullanici password girer...............................................passed
-Then Kullanici login butonuna tiklar........................................passed
-Then Kullanici anasayfada oldugunu dogrular.................................passed
-Then Kullanici my account yazisina tiklar...................................passed
-Then Kullanici address yazisina tiklar......................................passed
-Then Kullanici edit buton yazisina tiklar...................................passed
-Then Kullanici var olan onceki bilgileri siler..............................passed
-Then Kullanici first name alanina "Ali" girer...............................passed
-Then Kullanici last name alanina "Can" girer................................passed
-Then Kullanici company name alanina "Techpro" girer.........................passed
-Then Kullanici country alanini tiklar.......................................passed
-Then Kullanici dropdown alanini tiklar......................................passed
-Then Kullanici country alanina Turkey girer.................................passed
-Then Kullanici street1 alanina "Sevgi mah" girer............................passed
-Then Kullanici street2 alanina "Vefa sok." girer............................passed
-Then Kullanici zipcode alanina "12345" girer................................passed
-Then Kullanici town city alanina "Ceyhan" girer.............................passed
-Then Kullanici province alanini tiklar......................................passed
-Then Kullanici province dropdownu tiklar....................................passed
-Then Kullanici province alanina Adana girer.................................passed
-Then Kullanici phone alanina "0555 444 33 22" girer.........................passed
-Then Kullanici save butonuna tiklar.........................................passed
-And driver kapatilir........................................................passed
+Given Hubcomfy sayfasina gidildi............................................passed
+Then signin butonuna tiklandi...............................................passed
+Then email girildi..........................................................passed
+Then password girildi.......................................................passed
+Then login butonuna tiklandi................................................passed
+Then anasayfada oldugu dogrulandi...........................................passed
+Then my account yazisina tiklandi...........................................passed
+Then address yazisina tiklandi..............................................passed
+Then edit buton yazisina tiklandi...........................................passed
+Then var olan bilgiler silindi..............................................passed
+Then first name alanina "Roza" girildi......................................passed
+Then last name alanina "Mona" girildi.......................................passed
+Then company name alanina "Techpro" girildi.................................passed
+Then country alani tiklandi.................................................passed
+Then dropdown alani tiklandi................................................passed
+Then country alanina Turkey girildi.........................................passed
+Then street alanina "" girildi..............................................passed
+Then streett alanina "Murg sok." girildi....................................passed
+Then town city alanina "Seyhan" girildi.....................................passed
+Then province alani tiklandi................................................passed
+Then province dropdownu tiklandi............................................passed
+Then province alanina Adana girildi.........................................passed
+Then zipcode alanina "12345" girildi........................................passed
+Then save butonuna tiklandi.................................................passed
+And driver kapatildi........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Address Olusturma" name="Hubccomfy_vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.6" time="95.904">
+<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.6" time="69.016">
 <system-out><![CDATA[
-Given Kullanici Hubcomfy sayfasina gider....................................passed
-Then Kullanici signin butonuna tiklar.......................................passed
-Then Kullanici email girer..................................................passed
-Then Kullanici password girer...............................................passed
-Then Kullanici login butonuna tiklar........................................passed
-Then Kullanici anasayfada oldugunu dogrular.................................passed
-Then Kullanici my account yazisina tiklar...................................passed
-Then Kullanici address yazisina tiklar......................................passed
-Then Kullanici edit buton yazisina tiklar...................................passed
-Then Kullanici var olan onceki bilgileri siler..............................passed
-Then Kullanici first name alanina "Ali" girer...............................passed
-Then Kullanici last name alanina "Can" girer................................passed
-Then Kullanici company name alanina "Techpro" girer.........................passed
-Then Kullanici country alanini tiklar.......................................passed
-Then Kullanici dropdown alanini tiklar......................................passed
-Then Kullanici country alanina Turkey girer.................................passed
-Then Kullanici street1 alanina "" girer.....................................passed
-Then Kullanici street2 alanina "Vefa sok." girer............................passed
-Then Kullanici zipcode alanina "12345" girer................................passed
-Then Kullanici town city alanina "Ceyhan" girer.............................passed
-Then Kullanici province alanini tiklar......................................passed
-Then Kullanici province dropdownu tiklar....................................passed
-Then Kullanici province alanina Adana girer.................................passed
-Then Kullanici phone alanina "0555 444 33 22" girer.........................passed
-Then Kullanici save butonuna tiklar.........................................passed
-And driver kapatilir........................................................passed
+Given Hubcomfy sayfasina gidildi............................................passed
+Then signin butonuna tiklandi...............................................passed
+Then email girildi..........................................................passed
+Then password girildi.......................................................passed
+Then login butonuna tiklandi................................................passed
+Then anasayfada oldugu dogrulandi...........................................passed
+Then my account yazisina tiklandi...........................................passed
+Then address yazisina tiklandi..............................................passed
+Then edit buton yazisina tiklandi...........................................passed
+Then var olan bilgiler silindi..............................................passed
+Then first name alanina "Roza" girildi......................................passed
+Then last name alanina "Mona" girildi.......................................passed
+Then company name alanina "Techpro" girildi.................................passed
+Then country alani tiklandi.................................................passed
+Then dropdown alani tiklandi................................................passed
+Then country alanina Turkey girildi.........................................passed
+Then street alanina "Asiyan mah" girildi....................................passed
+Then streett alanina "" girildi.............................................passed
+Then town city alanina "Seyhan" girildi.....................................passed
+Then province alani tiklandi................................................passed
+Then province dropdownu tiklandi............................................passed
+Then province alanina Adana girildi.........................................passed
+Then zipcode alanina "12345" girildi........................................passed
+Then save butonuna tiklandi.................................................passed
+And driver kapatildi........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Address Olusturma" name="Hubccomfy_vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.7" time="95.433">
+<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.7" time="71.635">
 <system-out><![CDATA[
-Given Kullanici Hubcomfy sayfasina gider....................................passed
-Then Kullanici signin butonuna tiklar.......................................passed
-Then Kullanici email girer..................................................passed
-Then Kullanici password girer...............................................passed
-Then Kullanici login butonuna tiklar........................................passed
-Then Kullanici anasayfada oldugunu dogrular.................................passed
-Then Kullanici my account yazisina tiklar...................................passed
-Then Kullanici address yazisina tiklar......................................passed
-Then Kullanici edit buton yazisina tiklar...................................passed
-Then Kullanici var olan onceki bilgileri siler..............................passed
-Then Kullanici first name alanina "Ali" girer...............................passed
-Then Kullanici last name alanina "Can" girer................................passed
-Then Kullanici company name alanina "Techpro" girer.........................passed
-Then Kullanici country alanini tiklar.......................................passed
-Then Kullanici dropdown alanini tiklar......................................passed
-Then Kullanici country alanina Turkey girer.................................passed
-Then Kullanici street1 alanina "Sevgi mah" girer............................passed
-Then Kullanici street2 alanina "" girer.....................................passed
-Then Kullanici zipcode alanina "12345" girer................................passed
-Then Kullanici town city alanina "Ceyhan" girer.............................passed
-Then Kullanici province alanini tiklar......................................passed
-Then Kullanici province dropdownu tiklar....................................passed
-Then Kullanici province alanina Adana girer.................................passed
-Then Kullanici phone alanina "0555 444 33 22" girer.........................passed
-Then Kullanici save butonuna tiklar.........................................passed
-And driver kapatilir........................................................passed
+Given Hubcomfy sayfasina gidildi............................................passed
+Then signin butonuna tiklandi...............................................passed
+Then email girildi..........................................................passed
+Then password girildi.......................................................passed
+Then login butonuna tiklandi................................................passed
+Then anasayfada oldugu dogrulandi...........................................passed
+Then my account yazisina tiklandi...........................................passed
+Then address yazisina tiklandi..............................................passed
+Then edit buton yazisina tiklandi...........................................passed
+Then var olan bilgiler silindi..............................................passed
+Then first name alanina "Roza" girildi......................................passed
+Then last name alanina "Mona" girildi.......................................passed
+Then company name alanina "Techpro" girildi.................................passed
+Then country alani tiklandi.................................................passed
+Then dropdown alani tiklandi................................................passed
+Then country alanina Turkey girildi.........................................passed
+Then street alanina "Asiyan mah" girildi....................................passed
+Then streett alanina "Murg sok." girildi....................................passed
+Then town city alanina "" girildi...........................................passed
+Then province alani tiklandi................................................passed
+Then province dropdownu tiklandi............................................passed
+Then province alanina Adana girildi.........................................passed
+Then zipcode alanina "12345" girildi........................................passed
+Then save butonuna tiklandi.................................................passed
+And driver kapatildi........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hubcomfy Vendor Address Olusturma" name="Hubccomfy_vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.8" time="89.45">
+<testcase classname="Hubcomfy Vendor Shipping Address Olusturma" name="vendor_shipping_address_olusturma - vendor_billing_bilgileri - Example #1.8" time="68.303">
 <system-out><![CDATA[
-Given Kullanici Hubcomfy sayfasina gider....................................passed
-Then Kullanici signin butonuna tiklar.......................................passed
-Then Kullanici email girer..................................................passed
-Then Kullanici password girer...............................................passed
-Then Kullanici login butonuna tiklar........................................passed
-Then Kullanici anasayfada oldugunu dogrular.................................passed
-Then Kullanici my account yazisina tiklar...................................passed
-Then Kullanici address yazisina tiklar......................................passed
-Then Kullanici edit buton yazisina tiklar...................................passed
-Then Kullanici var olan onceki bilgileri siler..............................passed
-Then Kullanici first name alanina "Ali" girer...............................passed
-Then Kullanici last name alanina "Can" girer................................passed
-Then Kullanici company name alanina "Techpro" girer.........................passed
-Then Kullanici country alanini tiklar.......................................passed
-Then Kullanici dropdown alanini tiklar......................................passed
-Then Kullanici country alanina Turkey girer.................................passed
-Then Kullanici street1 alanina "Sevgi mah" girer............................passed
-Then Kullanici street2 alanina "Vefa sok." girer............................passed
-Then Kullanici zipcode alanina "" girer.....................................passed
-Then Kullanici town city alanina "Ceyhan" girer.............................passed
-Then Kullanici province alanini tiklar......................................passed
-Then Kullanici province dropdownu tiklar....................................passed
-Then Kullanici province alanina Adana girer.................................passed
-Then Kullanici phone alanina "0555 444 33 22" girer.........................passed
-Then Kullanici save butonuna tiklar.........................................passed
-And driver kapatilir........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Hubcomfy Vendor Address Olusturma" name="Hubccomfy_vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.9" time="89.299">
-<system-out><![CDATA[
-Given Kullanici Hubcomfy sayfasina gider....................................passed
-Then Kullanici signin butonuna tiklar.......................................passed
-Then Kullanici email girer..................................................passed
-Then Kullanici password girer...............................................passed
-Then Kullanici login butonuna tiklar........................................passed
-Then Kullanici anasayfada oldugunu dogrular.................................passed
-Then Kullanici my account yazisina tiklar...................................passed
-Then Kullanici address yazisina tiklar......................................passed
-Then Kullanici edit buton yazisina tiklar...................................passed
-Then Kullanici var olan onceki bilgileri siler..............................passed
-Then Kullanici first name alanina "Ali" girer...............................passed
-Then Kullanici last name alanina "Can" girer................................passed
-Then Kullanici company name alanina "Techpro" girer.........................passed
-Then Kullanici country alanini tiklar.......................................passed
-Then Kullanici dropdown alanini tiklar......................................passed
-Then Kullanici country alanina Turkey girer.................................passed
-Then Kullanici street1 alanina "Sevgi mah" girer............................passed
-Then Kullanici street2 alanina "Vefa sok." girer............................passed
-Then Kullanici zipcode alanina "12345" girer................................passed
-Then Kullanici town city alanina "" girer...................................passed
-Then Kullanici province alanini tiklar......................................passed
-Then Kullanici province dropdownu tiklar....................................passed
-Then Kullanici province alanina Adana girer.................................passed
-Then Kullanici phone alanina "0555 444 33 22" girer.........................passed
-Then Kullanici save butonuna tiklar.........................................passed
-And driver kapatilir........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Hubcomfy Vendor Address Olusturma" name="Hubccomfy_vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.10" time="90.605">
-<system-out><![CDATA[
-Given Kullanici Hubcomfy sayfasina gider....................................passed
-Then Kullanici signin butonuna tiklar.......................................passed
-Then Kullanici email girer..................................................passed
-Then Kullanici password girer...............................................passed
-Then Kullanici login butonuna tiklar........................................passed
-Then Kullanici anasayfada oldugunu dogrular.................................passed
-Then Kullanici my account yazisina tiklar...................................passed
-Then Kullanici address yazisina tiklar......................................passed
-Then Kullanici edit buton yazisina tiklar...................................passed
-Then Kullanici var olan onceki bilgileri siler..............................passed
-Then Kullanici first name alanina "Ali" girer...............................passed
-Then Kullanici last name alanina "Can" girer................................passed
-Then Kullanici company name alanina "Techpro" girer.........................passed
-Then Kullanici country alanini tiklar.......................................passed
-Then Kullanici dropdown alanini tiklar......................................passed
-Then Kullanici country alanina Turkey girer.................................passed
-Then Kullanici street1 alanina "Sevgi mah" girer............................passed
-Then Kullanici street2 alanina "Vefa sok." girer............................passed
-Then Kullanici zipcode alanina "12345" girer................................passed
-Then Kullanici town city alanina "Ceyhan" girer.............................passed
-Then Kullanici province alanini tiklar......................................passed
-Then Kullanici province dropdownu tiklar....................................passed
-Then Kullanici province alanina Adana girer.................................passed
-Then Kullanici phone alanina "0555 444 33 22" girer.........................passed
-Then Kullanici save butonuna tiklar.........................................passed
-And driver kapatilir........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Hubcomfy Vendor Address Olusturma" name="Hubccomfy_vendor_billing_address_olusturma - vendor_billing_bilgileri - Example #1.11" time="87.809">
-<system-out><![CDATA[
-Given Kullanici Hubcomfy sayfasina gider....................................passed
-Then Kullanici signin butonuna tiklar.......................................passed
-Then Kullanici email girer..................................................passed
-Then Kullanici password girer...............................................passed
-Then Kullanici login butonuna tiklar........................................passed
-Then Kullanici anasayfada oldugunu dogrular.................................passed
-Then Kullanici my account yazisina tiklar...................................passed
-Then Kullanici address yazisina tiklar......................................passed
-Then Kullanici edit buton yazisina tiklar...................................passed
-Then Kullanici var olan onceki bilgileri siler..............................passed
-Then Kullanici first name alanina "Ali" girer...............................passed
-Then Kullanici last name alanina "Can" girer................................passed
-Then Kullanici company name alanina "Techpro" girer.........................passed
-Then Kullanici country alanini tiklar.......................................passed
-Then Kullanici dropdown alanini tiklar......................................passed
-Then Kullanici country alanina Turkey girer.................................passed
-Then Kullanici street1 alanina "Sevgi mah" girer............................passed
-Then Kullanici street2 alanina "Vefa sok." girer............................passed
-Then Kullanici zipcode alanina "12345" girer................................passed
-Then Kullanici town city alanina "Ceyhan" girer.............................passed
-Then Kullanici province alanini tiklar......................................passed
-Then Kullanici province dropdownu tiklar....................................passed
-Then Kullanici province alanina Adana girer.................................passed
-Then Kullanici phone alanina "" girer.......................................passed
-Then Kullanici save butonuna tiklar.........................................passed
-And driver kapatilir........................................................passed
+Given Hubcomfy sayfasina gidildi............................................passed
+Then signin butonuna tiklandi...............................................passed
+Then email girildi..........................................................passed
+Then password girildi.......................................................passed
+Then login butonuna tiklandi................................................passed
+Then anasayfada oldugu dogrulandi...........................................passed
+Then my account yazisina tiklandi...........................................passed
+Then address yazisina tiklandi..............................................passed
+Then edit buton yazisina tiklandi...........................................passed
+Then var olan bilgiler silindi..............................................passed
+Then first name alanina "Roza" girildi......................................passed
+Then last name alanina "Mona" girildi.......................................passed
+Then company name alanina "Techpro" girildi.................................passed
+Then country alani tiklandi.................................................passed
+Then dropdown alani tiklandi................................................passed
+Then country alanina Turkey girildi.........................................passed
+Then street alanina "Asiyan mah" girildi....................................passed
+Then streett alanina "Murg sok." girildi....................................passed
+Then town city alanina "Seyhan" girildi.....................................passed
+Then province alani tiklandi................................................passed
+Then province dropdownu tiklandi............................................passed
+Then province alanina Adana girildi.........................................passed
+Then zipcode alanina "" girildi.............................................passed
+Then save butonuna tiklandi.................................................passed
+And driver kapatildi........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -6,6 +6,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
 import pages.VendorBillingAddressPage;
+import pages.VendorShippingAddressPage;
 
 
 import java.awt.*;
@@ -298,18 +299,18 @@ public class ReusableMethods {
 //        Actions actions = new Actions(driver);
         new Actions(Driver.getDriver()).sendKeys(Keys.PAGE_DOWN).perform();
     }
-//    public static void clearMethodShipping(){
-//        VendorShippingAddressPage vendorShippingAddressPage = new VendorShippingAddressPage();
-//        vendorShippingAddressPage.firstName.clear();
-//        vendorShippingAddressPage.lastName.clear();
-//        vendorShippingAddressPage.companyName.clear();
-//        vendorShippingAddressPage.streetAddress.clear();
-//        vendorShippingAddressPage.streetAddress2.clear();
-//        vendorShippingAddressPage.zipCode.clear();
-//        vendorShippingAddressPage.townCity.clear();
-//
-//    }
-//
+    public static void clearMethodShipping(){
+        VendorShippingAddressPage vendorShippingAddressPage = new VendorShippingAddressPage();
+        vendorShippingAddressPage.firstName.clear();
+        vendorShippingAddressPage.lastName.clear();
+        vendorShippingAddressPage.companyName.clear();
+        vendorShippingAddressPage.streetAddress.clear();
+        vendorShippingAddressPage.streetAddress2.clear();
+        vendorShippingAddressPage.zipCode.clear();
+        vendorShippingAddressPage.townCity.clear();
+
+    }
+
     public static void clearMethodBilling(){
         VendorBillingAddressPage vendorBillingAddressPage = new VendorBillingAddressPage();
         vendorBillingAddressPage.firstname.clear();

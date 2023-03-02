@@ -1,7 +1,7 @@
-Feature: Hubcomfy Vendor Address Olusturma
+Feature: Hubcomfy Vendor Billing Address Olusturma
 
 @billing_address
-Scenario Outline: Hubccomfy_vendor_billing_address_olusturma
+Scenario Outline:vendor_billing_address_olusturma
     Given Kullanici Hubcomfy sayfasina gider
     Then Kullanici signin butonuna tiklar
     Then Kullanici email girer
