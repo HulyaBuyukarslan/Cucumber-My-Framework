@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
+import pages.RegisterPage;
 import pages.VendorBillingAddressPage;
 import pages.VendorShippingAddressPage;
 
@@ -324,6 +325,13 @@ public class ReusableMethods {
 
 
     }
+public static void clearMethodRegister(){
+    RegisterPage registerPage = new RegisterPage();
+    registerPage.username.clear();
+    registerPage.emailAddress.clear();
+    registerPage.password.clear();
+    registerPage.policy.click();
 
+}
 
 }
