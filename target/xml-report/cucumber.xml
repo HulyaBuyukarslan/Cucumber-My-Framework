@@ -1,11 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="38.517" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Register for Hubcomfy" name="to be register" time="38.015">
+<testsuite name="Cucumber" time="57.723" tests="5" skipped="0" failures="1" errors="0">
+<testcase classname="Blue Rental Car Login Olma" name="manager_login_test - Example #1.1" time="14.381">
 <system-out><![CDATA[
-Given user go to "https://hubcomfy.com/"....................................passed
-Then user click register button.............................................passed
-Then user verify error message..............................................passed
-Then user close driver......................................................passed
+Given kullanici Blue Rental Car sayfasina gider.............................passed
+When kullanici login yazisina tiklar........................................passed
+Then kullanici login sayfasinda oldugunu dogrular...........................passed
+Then kullanici email address alanina "sam.walker@bluerentalcars.com" girer..passed
+Then kullanici password alanina "c!fas_art" girer...........................passed
+Then kullanici login butonuna tiklar........................................passed
+Then kullanici sag ust kosede ismini gordugunu dogrular.....................passed
+Then kullanici ismine tiklar................................................passed
+Then kullanici dropdowndan logout secenegine tiklar.........................passed
+Then kullanici ok butonuna tiklar...........................................passed
+Then kullanici ana sayfada oldugunu dogrular................................passed
+Then kullanici driver kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blue Rental Car Login Olma" name="manager_login_test - Example #1.2" time="8.332">
+<system-out><![CDATA[
+Given kullanici Blue Rental Car sayfasina gider.............................passed
+When kullanici login yazisina tiklar........................................passed
+Then kullanici login sayfasinda oldugunu dogrular...........................passed
+Then kullanici email address alanina "kate.brown@bluerentalcars.com" girer..passed
+Then kullanici password alanina "tad1$Fas" girer............................passed
+Then kullanici login butonuna tiklar........................................passed
+Then kullanici sag ust kosede ismini gordugunu dogrular.....................passed
+Then kullanici ismine tiklar................................................passed
+Then kullanici dropdowndan logout secenegine tiklar.........................passed
+Then kullanici ok butonuna tiklar...........................................passed
+Then kullanici ana sayfada oldugunu dogrular................................passed
+Then kullanici driver kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blue Rental Car Login Olma" name="manager_login_test - Example #1.3" time="7.895">
+<system-out><![CDATA[
+Given kullanici Blue Rental Car sayfasina gider.............................passed
+When kullanici login yazisina tiklar........................................passed
+Then kullanici login sayfasinda oldugunu dogrular...........................passed
+Then kullanici email address alanina "raj.khan@bluerentalcars.com" girer....passed
+Then kullanici password alanina "v7Hg_va^" girer............................passed
+Then kullanici login butonuna tiklar........................................passed
+Then kullanici sag ust kosede ismini gordugunu dogrular.....................passed
+Then kullanici ismine tiklar................................................passed
+Then kullanici dropdowndan logout secenegine tiklar.........................passed
+Then kullanici ok butonuna tiklar...........................................passed
+Then kullanici ana sayfada oldugunu dogrular................................passed
+Then kullanici driver kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blue Rental Car Login Olma" name="manager_login_test - Example #1.4" time="7.464">
+<system-out><![CDATA[
+Given kullanici Blue Rental Car sayfasina gider.............................passed
+When kullanici login yazisina tiklar........................................passed
+Then kullanici login sayfasinda oldugunu dogrular...........................passed
+Then kullanici email address alanina "pam.raymond@bluerentalcars.com" girer.passed
+Then kullanici password alanina "Nga^g6!" girer.............................passed
+Then kullanici login butonuna tiklar........................................passed
+Then kullanici sag ust kosede ismini gordugunu dogrular.....................passed
+Then kullanici ismine tiklar................................................passed
+Then kullanici dropdowndan logout secenegine tiklar.........................passed
+Then kullanici ok butonuna tiklar...........................................passed
+Then kullanici ana sayfada oldugunu dogrular................................passed
+Then kullanici driver kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blue Rental Car Login Olma" name="manager_login_test - Example #1.5" time="18.525">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#dropdown\-basic\-button&quot;}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc790235ebe923ef7e15437da0392b09, findElement {using=id, value=dropdown-basic-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:49843}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49843/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc790235ebe923ef7e15437da0392b09">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown\-basic\-button"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc790235ebe923ef7e15437da0392b09, findElement {using=id, value=dropdown-basic-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:49843}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49843/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc790235ebe923ef7e15437da0392b09
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy24.isDisplayed(Unknown Source)
+	at stepdefinitions.BlueRentalCarStepDefinitions.kullanici_sag_ust_kosede_ismini_gordugunu_dogrular(BlueRentalCarStepDefinitions.java:49)
+	at ✽.kullanici sag ust kosede ismini gordugunu dogrular(file:///C:/Users/Hp/IdeaProjects/Cucumber_MyFramework/src/test/resources/features/bluerentalcar.feature:12)
+]]>
+</failure>
+<system-out><![CDATA[
+Given kullanici Blue Rental Car sayfasina gider.............................passed
+When kullanici login yazisina tiklar........................................passed
+Then kullanici login sayfasinda oldugunu dogrular...........................passed
+Then kullanici email address alanina "sam.raymond@bluerentalcars.com" girer.passed
+Then kullanici password alanina "Nga^g6!" girer.............................passed
+Then kullanici login butonuna tiklar........................................passed
+Then kullanici sag ust kosede ismini gordugunu dogrular.....................failed
+Then kullanici ismine tiklar................................................skipped
+Then kullanici dropdowndan logout secenegine tiklar.........................skipped
+Then kullanici ok butonuna tiklar...........................................skipped
+Then kullanici ana sayfada oldugunu dogrular................................skipped
+Then kullanici driver kapatir...............................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>

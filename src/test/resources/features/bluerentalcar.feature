@@ -23,3 +23,4 @@ Feature: Blue Rental Car Login Olma
       |kate.brown@bluerentalcars.com  | tad1$Fas   |
       |raj.khan@bluerentalcars.com    | v7Hg_va^   |
       |pam.raymond@bluerentalcars.com | Nga^g6!    |
+      |sam.raymond@bluerentalcars.com | Nga^g6!    |

@@ -15,8 +15,8 @@ import org.junit.runner.RunWith;
         monochrome=true,
 
         features = "src/test/resources/features",
-        glue = "stepdefinitions",
-        tags = "@register",
+        glue = {"stepdefinitions","hooks"},
+        tags = "@manager_login",
         dryRun = false
 
 )
