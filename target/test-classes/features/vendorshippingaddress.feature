@@ -1,6 +1,7 @@
 Feature: Hubcomfy Vendor Shipping Address Olusturma
 
-  @shipping_address
+
+  @shipping_address @regression
   Scenario Outline:vendor_shipping_address_olusturma
     Given Hubcomfy sayfasina gidildi
     Then signin butonuna tiklandi

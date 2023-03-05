@@ -1,7 +1,7 @@
 Feature: Register for Hubcomfy
 
 
-  @register
+  @register @smoke
     Scenario:to be register
     Given user go to "https://hubcomfy.com/"
     Then user click register button

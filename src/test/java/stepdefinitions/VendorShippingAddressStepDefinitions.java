@@ -102,7 +102,7 @@ public class VendorShippingAddressStepDefinitions {
 
     @Then("dropdown alani tiklandi")
     public void dropdownAlaniniTiklandi() {
-        vendorShippingAddressPage.dropdown2.click();
+        vendorShippingAddressPage.dropdown.click();
         ReusableMethods.waitFor(2);
     }
 

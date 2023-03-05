@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
+import pages.HubcomfyLoginPage;
 import pages.RegisterPage;
 import pages.VendorBillingAddressPage;
 import pages.VendorShippingAddressPage;
@@ -333,5 +334,35 @@ public static void clearMethodRegister(){
     registerPage.policy.click();
 
 }
+
+
+    public static void loginMethod() {
+        HubcomfyLoginPage hubcomfyLoginPage = new HubcomfyLoginPage();
+        VendorShippingAddressPage vendorShippingAddressPage = new VendorShippingAddressPage();
+        Driver.getDriver().get(ConfigReader.getProperty("url"));
+        hubcomfyLoginPage.signInButon.click();
+        ReusableMethods.waitFor(3);
+        hubcomfyLoginPage.emailAddress.sendKeys(ConfigReader.getProperty("vendor_email"));
+        ReusableMethods.waitFor(3);
+        hubcomfyLoginPage.password.sendKeys(ConfigReader.getProperty("vendor_password"));
+        ReusableMethods.waitFor(3);
+        hubcomfyLoginPage.signInLogin.click();
+        ReusableMethods.scrollEndJS();
+        ReusableMethods.waitFor(2);
+        ReusableMethods.clickByJS(vendorShippingAddressPage.myAccount);
+        ReusableMethods.scrollDownActions();
+        ReusableMethods.clickByJS(vendorShippingAddressPage.address);
+        ReusableMethods.waitFor(2);
+        ReusableMethods.scrollDownActions();
+        ReusableMethods.clickByJS(vendorShippingAddressPage.editButton);
+        ReusableMethods.waitFor(2);
+        ReusableMethods.scrollDownActions();
+        ReusableMethods.clearMethodShipping();
+        ReusableMethods.waitFor(2);
+
+
+    }
+
+
 
 }

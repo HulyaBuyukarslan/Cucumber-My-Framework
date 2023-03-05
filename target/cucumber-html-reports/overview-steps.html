@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>cucumber-framework</td>
+        <td>1</td>
+      <td>05 Mar 2023, 11:00</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">stepdefinitions.HubcomfyLoginStepDefinitions.kullanici_address_yazisina_tiklar()</td>
+              <td>11</td>
+              <td class="duration" data-value="1136882872">1.136</td>
+              <td class="duration" data-value="1136882872">6.534</td>
+              <td class="duration" data-value="12505711600">12.505</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.HubcomfyLoginStepDefinitions.kullanici_anasayfada_oldugunu_dogrular()</td>
+              <td>11</td>
+              <td class="duration" data-value="1207969709">1.207</td>
+              <td class="duration" data-value="1207969709">6.752</td>
+              <td class="duration" data-value="13287666800">13.287</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.HubcomfyLoginStepDefinitions.kullanici_edit_buton_yazisina_tiklar()</td>
+              <td>11</td>
+              <td class="duration" data-value="1032192390">1.032</td>
+              <td class="duration" data-value="1032192390">7.592</td>
+              <td class="duration" data-value="11354116300">11.354</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.HubcomfyLoginStepDefinitions.kullanici_email_girer()</td>
+              <td>11</td>
+              <td class="duration" data-value="295994454">0.295</td>
+              <td class="duration" data-value="295994454">1.696</td>
+              <td class="duration" data-value="3255939000">3.255</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.HubcomfyLoginStepDefinitions.kullanici_hubcomfy_sayfasina_gider()</td>
+              <td>11</td>
+              <td class="duration" data-value="2550469181">2.550</td>
+              <td class="duration" data-value="2550469181">17.455</td>
+              <td class="duration" data-value="28055161000">28.055</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.HubcomfyLoginStepDefinitions.kullanici_login_butonuna_tiklar()</td>
+              <td>11</td>
+              <td class="duration" data-value="22759990">0.022</td>
+              <td class="duration" data-value="22759990">0.157</td>
+              <td class="duration" data-value="250359900">0.250</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.HubcomfyLoginStepDefinitions.kullanici_my_account_yazisina_tiklar()</td>
+              <td>11</td>
+              <td class="duration" data-value="1645911209">1.645</td>
+              <td class="duration" data-value="1645911209">9.723</td>
+              <td class="duration" data-value="18105023300">18.105</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.HubcomfyLoginStepDefinitions.kullanici_password_girer()</td>
+              <td>11</td>
+              <td class="duration" data-value="32390145">0.032</td>
+              <td class="duration" data-value="32390145">0.184</td>
+              <td class="duration" data-value="356291600">0.356</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.HubcomfyLoginStepDefinitions.kullanici_signin_butonuna_tiklar()</td>
+              <td>11</td>
+              <td class="duration" data-value="109568490">0.109</td>
+              <td class="duration" data-value="109568490">0.837</td>
+              <td class="duration" data-value="1205253400">1.205</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullaniciCountryAlaninaTurkeyGirer()</td>
+              <td>11</td>
+              <td class="duration" data-value="605637690">0.605</td>
+              <td class="duration" data-value="605637690">3.333</td>
+              <td class="duration" data-value="6662014600">6.662</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullaniciDriveriKapatir()</td>
+              <td>11</td>
+              <td class="duration" data-value="54121681">0.054</td>
+              <td class="duration" data-value="54121681">0.593</td>
+              <td class="duration" data-value="595338500">0.595</td>
+              <td class="failed">9.09%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullaniciProvinceAlaninaAdanaGirer()</td>
+              <td>11</td>
+              <td class="duration" data-value="567453654">0.567</td>
+              <td class="duration" data-value="567453654">3.133</td>
+              <td class="duration" data-value="6241990200">6.241</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_company_name_alanina_girer(java.lang.String)</td>
+              <td>11</td>
+              <td class="duration" data-value="595963100">0.595</td>
+              <td class="duration" data-value="595963100">3.372</td>
+              <td class="duration" data-value="6555594100">6.555</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_country_alanini_tiklar()</td>
+              <td>11</td>
+              <td class="duration" data-value="666643954">0.666</td>
+              <td class="duration" data-value="666643954">4.054</td>
+              <td class="duration" data-value="7333083500">7.333</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_dropdown_alanini_tiklar()</td>
+              <td>11</td>
+              <td class="duration" data-value="600074227">0.600</td>
+              <td class="duration" data-value="600074227">3.410</td>
+              <td class="duration" data-value="6600816500">6.600</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_first_name_alanina_girer(java.lang.String)</td>
+              <td>11</td>
+              <td class="duration" data-value="572882954">0.572</td>
+              <td class="duration" data-value="572882954">3.165</td>
+              <td class="duration" data-value="6301712500">6.301</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_last_name_alanina_girer(java.lang.String)</td>
+              <td>11</td>
+              <td class="duration" data-value="576827381">0.576</td>
+              <td class="duration" data-value="576827381">3.183</td>
+              <td class="duration" data-value="6345101200">6.345</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_phone_alanina_girer(java.lang.String)</td>
+              <td>11</td>
+              <td class="duration" data-value="567421272">0.567</td>
+              <td class="duration" data-value="567421272">3.143</td>
+              <td class="duration" data-value="6241634000">6.241</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_province_alanini_tiklar()</td>
+              <td>11</td>
+              <td class="duration" data-value="945855418">0.945</td>
+              <td class="duration" data-value="945855418">5.270</td>
+              <td class="duration" data-value="10404409600">10.404</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_province_dropdownu_tiklar()</td>
+              <td>11</td>
+              <td class="duration" data-value="573448745">0.573</td>
+              <td class="duration" data-value="573448745">3.167</td>
+              <td class="duration" data-value="6307936200">6.307</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_save_butonuna_tiklar()</td>
+              <td>11</td>
+              <td class="duration" data-value="1449370709">1.449</td>
+              <td class="duration" data-value="1449370709">8.443</td>
+              <td class="duration" data-value="15943077800">15.943</td>
+              <td class="failed">9.09%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_street1_alanina_girer(java.lang.String)</td>
+              <td>11</td>
+              <td class="duration" data-value="704527863">0.704</td>
+              <td class="duration" data-value="704527863">4.609</td>
+              <td class="duration" data-value="7749806500">7.749</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_street2_alanina_girer(java.lang.String)</td>
+              <td>11</td>
+              <td class="duration" data-value="570366763">0.570</td>
+              <td class="duration" data-value="570366763">3.139</td>
+              <td class="duration" data-value="6274034400">6.274</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_town_city_alanina_girer(java.lang.String)</td>
+              <td>11</td>
+              <td class="duration" data-value="566160145">0.566</td>
+              <td class="duration" data-value="566160145">3.115</td>
+              <td class="duration" data-value="6227761600">6.227</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_var_olan_onceki_bilgileri_siler()</td>
+              <td>11</td>
+              <td class="duration" data-value="1322108800">1.322</td>
+              <td class="duration" data-value="1322108800">7.354</td>
+              <td class="duration" data-value="14543196800">14.543</td>
+              <td class="failed">18.18%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefinitions.VendorBillingAddressStepDefinitions.kullanici_zipcode_alanina_girer(java.lang.String)</td>
+              <td>11</td>
+              <td class="duration" data-value="568444645">0.568</td>
+              <td class="duration" data-value="568444645">3.149</td>
+              <td class="duration" data-value="6252891100">6.252</td>
+              <td class="failed">18.18%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>26</td>
+            <td>286</td>
+            <td class="duration">0.751</td>
+            <td class="duration">28.055</td>
+            <td class="duration">3:34.955</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
