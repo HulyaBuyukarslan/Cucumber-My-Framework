@@ -55,6 +55,12 @@
         <artifactId>poi</artifactId>
         <version>4.1.2</version>
     </dependency>
+        <!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
+        <dependency>
+            <groupId>tech.grasshopper</groupId>
+            <artifactId>extentreports-cucumber7-adapter</artifactId>
+            <version>1.6.0</version>
+        </dependency>
     </dependencies>
     <!--    PLUG INS-->
     <build>
