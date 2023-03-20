@@ -16,9 +16,9 @@ import org.junit.runner.RunWith;
         },
         monochrome=true,
 
-        features = "src/test/resources/features",
+        features ="./src/test/resources/features",
         glue = {"stepdefinitions","hooks"},
-        tags = "@bluerentalcar",
+        tags = "@swagger_create_user",
         dryRun = false
 
 )

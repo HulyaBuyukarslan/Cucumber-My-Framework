@@ -1,123 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="95.544" tests="5" skipped="0" failures="1" errors="0">
-<testcase classname="Blue Rental Car Login Olma" name="manager_login_test - Example #1.1" time="36.611">
-<system-out><![CDATA[
-Given kullanici Blue Rental Car sayfasina gider.............................passed
-When kullanici login yazisina tiklar........................................passed
-Then kullanici login sayfasinda oldugunu dogrular...........................passed
-Then kullanici email address alanina "sam.walker@bluerentalcars.com" girer..passed
-Then kullanici password alanina "c!fas_art" girer...........................passed
-Then kullanici login butonuna tiklar........................................passed
-Then kullanici sag ust kosede ismini gordugunu dogrular.....................passed
-Then kullanici ismine tiklar................................................passed
-Then kullanici dropdowndan logout secenegine tiklar.........................passed
-Then kullanici ok butonuna tiklar...........................................passed
-Then kullanici ana sayfada oldugunu dogrular................................passed
-Then kullanici driver kapatir...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Blue Rental Car Login Olma" name="manager_login_test - Example #1.2" time="13.752">
-<system-out><![CDATA[
-Given kullanici Blue Rental Car sayfasina gider.............................passed
-When kullanici login yazisina tiklar........................................passed
-Then kullanici login sayfasinda oldugunu dogrular...........................passed
-Then kullanici email address alanina "kate.brown@bluerentalcars.com" girer..passed
-Then kullanici password alanina "tad1$Fas" girer............................passed
-Then kullanici login butonuna tiklar........................................passed
-Then kullanici sag ust kosede ismini gordugunu dogrular.....................passed
-Then kullanici ismine tiklar................................................passed
-Then kullanici dropdowndan logout secenegine tiklar.........................passed
-Then kullanici ok butonuna tiklar...........................................passed
-Then kullanici ana sayfada oldugunu dogrular................................passed
-Then kullanici driver kapatir...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Blue Rental Car Login Olma" name="manager_login_test - Example #1.3" time="10.694">
-<system-out><![CDATA[
-Given kullanici Blue Rental Car sayfasina gider.............................passed
-When kullanici login yazisina tiklar........................................passed
-Then kullanici login sayfasinda oldugunu dogrular...........................passed
-Then kullanici email address alanina "raj.khan@bluerentalcars.com" girer....passed
-Then kullanici password alanina "v7Hg_va^" girer............................passed
-Then kullanici login butonuna tiklar........................................passed
-Then kullanici sag ust kosede ismini gordugunu dogrular.....................passed
-Then kullanici ismine tiklar................................................passed
-Then kullanici dropdowndan logout secenegine tiklar.........................passed
-Then kullanici ok butonuna tiklar...........................................passed
-Then kullanici ana sayfada oldugunu dogrular................................passed
-Then kullanici driver kapatir...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Blue Rental Car Login Olma" name="manager_login_test - Example #1.4" time="10.563">
-<system-out><![CDATA[
-Given kullanici Blue Rental Car sayfasina gider.............................passed
-When kullanici login yazisina tiklar........................................passed
-Then kullanici login sayfasinda oldugunu dogrular...........................passed
-Then kullanici email address alanina "pam.raymond@bluerentalcars.com" girer.passed
-Then kullanici password alanina "Nga^g6!" girer.............................passed
-Then kullanici login butonuna tiklar........................................passed
-Then kullanici sag ust kosede ismini gordugunu dogrular.....................passed
-Then kullanici ismine tiklar................................................passed
-Then kullanici dropdowndan logout secenegine tiklar.........................passed
-Then kullanici ok butonuna tiklar...........................................passed
-Then kullanici ana sayfada oldugunu dogrular................................passed
-Then kullanici driver kapatir...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Blue Rental Car Login Olma" name="manager_login_test - Example #1.5" time="22.488">
-<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#dropdown\-basic\-button&quot;}
-  (Session info: chrome=110.0.5481.178)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c303082dbca71f20d27662755f17c42b, findElement {using=id, value=dropdown-basic-button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63548/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c303082dbca71f20d27662755f17c42b">
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown\-basic\-button"}
-  (Session info: chrome=110.0.5481.178)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c303082dbca71f20d27662755f17c42b, findElement {using=id, value=dropdown-basic-button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63548/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c303082dbca71f20d27662755f17c42b
+<testsuite name="Cucumber" time="9.096" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Swagger create user" name="create user" time="8.419">
+<failure type="io.cucumber.core.exception.CucumberException" message="Failed to instantiate class stepdefinitions.SwaggerStepDefinitions">
+<![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.SwaggerStepDefinitions
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy26.isDisplayed(Unknown Source)
-	at stepdefinitions.BlueRentalCarStepDefinitions.kullanici_sag_ust_kosede_ismini_gordugunu_dogrular(BlueRentalCarStepDefinitions.java:49)
-	at ✽.kullanici sag ust kosede ismini gordugunu dogrular(file:///C:/Users/Hp/IdeaProjects/Cucumber_MyFramework/src/test/resources/features/bluerentalcar.feature:12)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 46 more
+Caused by: org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
+	at org.openqa.selenium.By.className(By.java:100)
+	at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromShortFindBy(AbstractFindByBuilder.java:43)
+	at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:85)
+	at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
+	at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+	at pages.SwaggerPage.<init>(SwaggerPage.java:14)
+	at stepdefinitions.SwaggerStepDefinitions.<init>(SwaggerStepDefinitions.java:12)
+	... 51 more
 ]]>
 </failure>
 <system-out><![CDATA[
-Given kullanici Blue Rental Car sayfasina gider.............................passed
-When kullanici login yazisina tiklar........................................passed
-Then kullanici login sayfasinda oldugunu dogrular...........................passed
-Then kullanici email address alanina "sam.raymond@bluerentalcars.com" girer.passed
-Then kullanici password alanina "Nga^g6!" girer.............................passed
-Then kullanici login butonuna tiklar........................................passed
-Then kullanici sag ust kosede ismini gordugunu dogrular.....................failed
-Then kullanici ismine tiklar................................................skipped
-Then kullanici dropdowndan logout secenegine tiklar.........................skipped
-Then kullanici ok butonuna tiklar...........................................skipped
-Then kullanici ana sayfada oldugunu dogrular................................skipped
-Then kullanici driver kapatir...............................................skipped
+Given kullanici ilgili adrese gider.........................................failed
+When post yazisina tiklar...................................................skipped
+Then try it out  yazisina tiklar............................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>

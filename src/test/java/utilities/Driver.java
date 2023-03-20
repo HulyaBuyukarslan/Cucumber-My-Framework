@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
     public class Driver {
+
         //create a driver instance
         private static WebDriver driver;
         private static int timeout = 5;
@@ -30,12 +31,18 @@ import java.util.NoSuchElementException;
         }
         //to initialize the driver we create a static method
         public static WebDriver getDriver() {
+            ChromeOptions ops= new ChromeOptions();
+            ops.addArguments("--remote-allow-origins=*");
             //create the driver if and only if it is null
             if (driver == null) {
                 String browser = ConfigReader.getProperty("browser");
                 if ("chrome".equals(browser)) {
+                //    ops.addArguments("--remote-allow-origins=*");
+
+//                    options.addArguments("--disable-blink-features=AutomationControlled");
+//                    options.addArguments("--disable-extensions");
                     WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
+                    driver = new ChromeDriver(ops);
                 } else if ("firefox".equals(browser)) {
                     WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
