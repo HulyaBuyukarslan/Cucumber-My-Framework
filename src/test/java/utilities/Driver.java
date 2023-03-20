@@ -37,7 +37,7 @@ import java.util.NoSuchElementException;
             if (driver == null) {
                 String browser = ConfigReader.getProperty("browser");
                 if ("chrome".equals(browser)) {
-                //    ops.addArguments("--remote-allow-origins=*");
+                    ops.addArguments("--remote-allow-origins=*");
 
 //                    options.addArguments("--disable-blink-features=AutomationControlled");
 //                    options.addArguments("--disable-extensions");
