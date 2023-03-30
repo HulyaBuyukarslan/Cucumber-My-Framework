@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
 
         features ="./src/test/resources/features",
         glue = {"stepdefinitions","hooks"},
-        tags = "@swagger_create_user",
+        tags = "@medunna_oda_olusturma",
         dryRun = false
 
 )
